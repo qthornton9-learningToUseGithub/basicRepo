@@ -1,1 +1,252 @@
-update
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ basic_repo/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.0.regtrans-ms
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.1.regtrans-ms
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.2.regtrans-ms
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~
+$ cd Documents/Review
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review
+$ ls
+Checklist.txt         GettingStarted2.webm  IntroToPrgrmg1.webm
+GettingStarted1.webm  Git/                  IntroToProgrammg/
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review
+$ cd Git
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git
+$ ls
+basciRepo.txt  GitMan.txt  loc_theend.gif
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git
+$ mkdir basicRepo
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git
+$ cd
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/qthor/.git/
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~ (master)
+$ touch text.txt
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ basic_repo/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.0.regtrans-ms
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.1.regtrans-ms
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.2.regtrans-ms
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ text.txt
+ Videos/
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~ (master)
+$ git remove
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~ (master)
+$ git remove remote
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~ (master)
+$ rm -rf .git
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~
+$ rm text.txt
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ basic_repo/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.0.regtrans-ms
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.1.regtrans-ms
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.2.regtrans-ms
+ NTUSER.DAT{fd9a35da-49fe-11e9-aa2c-248a07783950}.TxR.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~
+$ cd Documents/Review/Git
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git
+$ ls
+basciRepo.txt  basicRepo/  GitMan.txt  loc_theend.gif
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git
+$ cd basicRepo
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo
+$ ls
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo
+$ touch text.txt
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo
+$ ls
+text.txt
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo
+$ git init
+Initialized empty Git repository in C:/Users/qthor/Documents/Review/Git/basicRepo/.git/
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ ls
+text.txt
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        text.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git add .
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git commit -m"initial commit with text.txt"
+[master (root-commit) d760919] initial commit with text.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text.txt
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git add text.txt
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   text.txt
+
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git commit -m"updated text.txt"
+[master 1eee0bc] updated text.txt
+ 1 file changed, 1 insertion(+)
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ ^C
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$
