@@ -1,4 +1,24 @@
+Quick setup — if you’ve done this kind of thing before
+or	
+HTTPS
+SSH
+https://github.com/qthornton9/basicRepo.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
 
+…or create a new repository on the command line
+echo "# basicRepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/qthornton9/basicRepo.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/qthornton9/basicRepo.git
+git push -u origin master
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+ ProTip! Use the URL for this page when adding GitHub as a remote.
 qthor@DESKTOP-5P9IDNI MINGW64 ~
 $ ls
 '3D Objects'/
@@ -247,6 +267,57 @@ nothing to commit, working tree clean
 
 qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
 $ ^C
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   text.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git add .
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git commit -m"updated text.txt with bash info"
+[master 1fab327] updated text.txt with bash info
+ 1 file changed, 252 insertions(+), 1 deletion(-)
+ rewrite text.txt (100%)
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git add .
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git remote add origin https://github.com/qthornton9/basicRepo.git
+
+qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
+$ git push -u origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (9/9), 1.66 KiB | 852.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/qthornton9/basicRepo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 qthor@DESKTOP-5P9IDNI MINGW64 ~/Documents/Review/Git/basicRepo (master)
 $
